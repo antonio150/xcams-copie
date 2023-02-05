@@ -1,0 +1,232 @@
+.body{
+        background-color: rgb(10, 10, 10);
+        /* position: absolute; */
+        /* top: -15px;
+        left: 10px; */
+        width: 100%;
+}
+
+
+
+
+.titleContent{
+        color: white;
+        display: flex;
+        font-size: 12px;
+}
+
+.titleContent div{
+        padding: 5px;
+
+}
+
+.titleContent div:hover{
+        color: orange;
+}
+
+.carre{
+        display: flex;
+        font-size: 25px;
+
+}
+
+h{
+    margin-left: 15px;    
+}
+.bodyCarre{
+        display: inline;
+}
+
+.carreContent1 {
+        display: flex;
+}
+
+ .carreContent2{
+        display: flex;
+}
+
+.carreContent3{
+        display: flex;
+}
+
+.carreContent1 a{
+        background-color: white;
+        padding: 109px;
+
+        /* height: 230px;
+        width: 230px; */
+        border-width: 1px;
+        border: black solid;
+}
+
+.carreContent1 a:hover{
+        background-color: rgba(240, 234, 234, 0.546);
+        
+}
+.carreContent2 a:hover{
+        background-color: rgba(240, 234, 234, 0.546);
+        
+}
+.carreContent3 a:hover{
+        background-color: rgba(240, 234, 234, 0.546);
+        
+}
+
+.carreContent2 a{
+        background-color: white;
+        padding: 109px;
+
+        /* height: 230px;
+        width: 230px; */
+        border-width: 1px;
+        border: black solid;
+}
+
+.carreContent3 a{
+        background-color: white;
+        padding: 109px;
+
+        /* height: 230px;
+        width: 230px; */
+        border-width: 1px;
+        border: black solid;
+}
+
+.moreGirl{
+        border: white solid;
+        border-radius: 3px;
+        border-width: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+        margin-bottom: 120px;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        width: 6em;
+}
+
+.vertical-line{
+        border-left: 2px solid rgb(250, 247, 247);
+        display: inline-block;
+        height: 20px;
+        margin: 0 20px;
+      }
+
+.footer{
+        color: white;
+}
+
+.firstFooter1{
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+        display: flex;
+
+}
+.firstFooter1 div{
+        padding: 5px;
+        
+}
+
+.firstFooter21{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 45px;
+        width: 270px;
+        font-weight: bold;
+}
+
+.firstFooter22{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 45px;
+        width: 70px;
+        font-weight: bold;
+}
+
+.firstFooter23{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        width: 280px;
+        height: 50px;
+        font-weight: bold;
+        border-radius: 40px;
+        border: white solid 1px;
+}
+
+.firstFooter23 input{
+       height: 40px;
+       padding: 4px;
+       width: 220px;
+       margin-left: 9px;
+       color: white;
+       border: none;
+       padding-left: 10px;
+        background-color: rgba(31, 35, 40, 0.635);
+        font-weight: bold;
+}
+
+.firstFooter24{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        width: 280px;
+        height: 50px;
+       
+}
+
+.firstFooter25{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        width: 350px;
+        height: 30px;
+        font-size: 10px;
+        display: flex;
+       
+}
+
+.firstFooter26{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 800px;
+        height: 30px;
+        font-size: 10px;
+        display: flex;
+       
+}
+
+.RTA{
+        font-weight: 19px;
+        font-size: 15px;
+}
+
+.firstFooter27{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-weight: 9px;
+        width: 800px;
+        height: 20px;
+        color: rgba(241, 238, 238, 0.44);
+        font-size: 10px;
+        display: flex;
+       
+}
+
+.firstFooter28{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        font-weight: 1px;
+        color: rgba(241, 238, 238, 0.44);
+        width: 600px;
+        height: 10px;
+        font-size: 10px;
+        display: flex;
+       
+}
+

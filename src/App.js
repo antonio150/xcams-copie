@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Routes, 
+  Route,
+  Link
+} from 'react-router-dom';
+import BackOff from './BackOffice/BackOff';
+import Home from './Home/Home';
+import Formular from './Formular/Formular';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router >
+    
+    <Routes>
+      <Route path='/' element={< Home />}></Route>
+      <Route path='/Back' element={< BackOff />}></Route>
+      <Route path='/Formular' element={< Formular />}></Route>
+    </Routes>
+      
+     
+    </Router>
   );
 }
 
